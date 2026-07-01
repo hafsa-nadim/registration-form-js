@@ -61,7 +61,7 @@ function show() {
 }
 
 // 3. Runs when you click Clear Output
-function clear() {
+function clearOutput() {
   var output = document.getElementById('output');
   if(output!= null){
     output.innerText = ""; // clear the text
